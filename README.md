@@ -66,7 +66,7 @@
 
 Juliana Praxedes - contact@julianapraxedes.com
 
-Project Link: [https://github.com/praxeds/freecodecamp-product-landing-page](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/praxeds/freecodecamp-product-landing-page](https://github.com/praxeds/freecodecamp-product-landing-page)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
