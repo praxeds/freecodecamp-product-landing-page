@@ -76,6 +76,7 @@ Project Link: [https://github.com/praxeds/freecodecamp-product-landing-page](htt
 ## Resources
 
 * Icons by [Font Awesome](https://fontawesome.com/icons)
+* Rainbow Text by [Mikulew](https://github.com/Mikulew/css-rainbow-text-animation)
 * Photography by [Pavel Danilyuk](https://www.pexels.com/@pavel-danilyuk/)
 * Photography by [Niles Gibbs](https://www.pexels.com/@niles-gibbs-3780878/)
 * Photography by [Diana Titenko](https://www.pexels.com/@diana-titenko-1716093/)
