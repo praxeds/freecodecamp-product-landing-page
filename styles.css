@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+/*
+
+! Declarations
+
+*/
+
+:root {
+    --bg-green: #34ca41;
+    --bg-magenta: #a202b7;
+    --bg-pink: #fd004c;
+    --bg-yellow: #fdee15;
+    --bg-blue: #3363ff;
+    --bg-color: #ff80bb;
+
+
+    --bg-gray-light: #D8D8D8;
+    --bg-gray-medium: #808080;
+    --bg-gray-dark: #252525;
+}
+
+.main-font {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+.secondary-font {
+    font-family: 'NTR', sans-serif;
+}
+
+body {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'NTR', sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
+h4 {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+h5 {
+    font-family: 'NTR', sans-serif;
+    font-weight: 800;
+}
+
+.panel {
+    padding-top: 15px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.absolute {
+    position: relative;
+    width: 100vw;
+}
+
+/*
+! Scrollbar
+*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*
+! Navbar
+*/
+
+#nav-bar {
+    padding: 1px 0;
+}
+
+/*
+! Header
+*/
+
+div.subtext {
+    width: 450px;
+    text-align: left;
+    font-family: 'NTR', sans-serif;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    line-height: 1em;
+}
+
+h2.header-title {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 3rem;
+}
+
+.rainbow-text {
+    font-weight: 700;
+    color: transparent;
+    text-shadow: 5px -5px white;
+    letter-spacing: 0.1em;
+    background: linear-gradient(90deg,
+            #fd004c 16.7%,
+            #fe9000 16.7%,
+            #fe9000 33.4%,
+            #fdee15 33.4%,
+            #fdee15 50.1%,
+            #3edf4b 50.1%,
+            #3edf4b 66.8%,
+            #3363ff 66.8%,
+            #3363ff 83.5%,
+            #b102b7 83.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: rainbow 160s linear infinite;
+}
+
+@keyframes rainbow {
+    100% {
+        background-position: 60em 0;
+    }
+}
+
+
+/*
+! About
+*/
+
+
+.camera-colors {
+    background: no-repeat center;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 20rem;
+    height: 20rem;
+}
+
+/*
+! Features
+*/
+
+.features:hover:nth-of-type(1) {
+    color: var(--bg-pink);
+}
+
+.features:hover:nth-of-type(2) {
+    color: var(--bg-blue);
+}
+
+.features:hover:nth-of-type(3) {
+    color: var(--bg-green);
+}
+
+.features:hover:nth-of-type(4) {
+    color: var(--bg-yellow);
+}
+
+
+/*
+! Pricing
+*/
+
+#Pricing button {
+    color: white;
+    border-style: none;
+}
+
+.rainbow h5 {
+    font-size: 1.5rem;
+}
+
+.rainbow ul {
+    font-family: 'NTR',sans-serif;
+    list-style-type: none;
+}
+
+.rainbow {
+    border: 2px solid var(--bg-gray-light);
+}
+
+.rainbow:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-image: linear-gradient(90deg, var(--bg-pink), var(--bg-blue), var(--bg-green), var(--bg-yellow)) 1;
+    
+}
+
+
+
+
+/*
+! Instagram
+*/
+
+.instagram {
+    position: relative;
+}
+
+.instagram:hover .overlay {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.one {
+    background-color: var(--bg-pink);
+}
+
+.two {
+    background-color: var(--bg-blue);
+}
+
+.three {
+    background-color: var(--bg-green);
+}
+
+.four {
+    background-color: var(--bg-yellow);
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*
+! Footer
+*/
+
+footer {
+    background-color: white;
+}
+
+.email-div {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+    padding: 0 20px 0 10px;
+
+    width: 100%;
+    height: 40px;
+}
+
+#email-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#email {
+    background-color: transparent;
+    color: white;
+    padding: 7px;
+    border: 0;
+    width: 100%;
+    outline: none;
+}
+
+#email::placeholder {
+    background-color: transparent;
+    color: white;
+}
+
+.email-div button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-top {
+    padding: 60px 0 40px 0;
+    text-align: left;
+}
+
+.footer-top h3 {
+    padding-bottom: 10px;
+}
+
+.footer-about h3:first-of-type {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+.footer-links a {
+    color: var(--bg-gray-dark);
+    text-decoration: none;
+    border: 0;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    padding: 0 0 60px 0;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    color: var(--bg-gray-medium);
+    border: 0;
+}
+
+.footer-social a:hover:nth-of-type(1),
+.footer-social a:focus:nth-of-type(1) {
+    color: var(--bg-magenta);
+    border: 0;
+}
+
+.footer-social a:hover:nth-of-type(2),
+.footer-social a:focus:nth-of-type(2) {
+    color: var(--bg-pink);
+    border: 0;
+}
+
+.footer-social a:hover:nth-of-type(3),
+.footer-social a:focus:nth-of-type(3) {
+    color: var(--bg-blue);
+    border: 0;
+}
+
+.footer-social a:hover:nth-of-type(4),
+.footer-social a:focus:nth-of-type(4) {
+    color: var(--bg-green);
+    border: 0;
+}
+
+.footer-social a:hover:nth-of-type(5),
+.footer-social a:focus:nth-of-type(5) {
+    color: var(--bg-yellow);
+    border: 0;
+}
+
+.footer-social i {
+    font-size: 24px;
+    vertical-align: middle;
+}
