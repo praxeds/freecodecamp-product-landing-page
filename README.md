@@ -12,7 +12,7 @@
     4th certification project assigned by freeCodeCamp as part of Responsive Web Design Curriculum
     <br />
     <br />
-    <a href="https://github.com/praxeds/freecodecamp-product-landing-page">Live Demo</a>
+    <a href="https://praxeds.github.io/freecodecamp-product-landing-page/">Live Demo</a>
     ·
     <a href="https://codepen.io/praxeds/pen/bGvwrzb">Codepen</a>
     ·
@@ -42,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![alt text](assets/header.png)
+![header](assets/header.png)
 
 * Objective: Build a website that is functionally similar to this: https://product-landing-page.freecodecamp.rocks.
 * You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
