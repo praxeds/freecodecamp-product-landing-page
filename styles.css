@@ -116,47 +116,47 @@ h2.header-title {
 
 
 /*!About*/
-#About > div.row {
-    position: relative;
+html > body > div#About > div.row {
+    position: relative !important;
 }
 
-#About > div.row:nth-of-type(even) > div.bg-circle {
-    right: 0;
+html > body > div#About > div.row:nth-of-type(even) > div.bg-circle {
+    right: 0 !important;
 }
 
-#About > div.row:nth-of-type(odd) > div.bg-circle {
-    left: 0;
+html > body > div#About > div.row:nth-of-type(odd) > div.bg-circle {
+    left: 0 !important;
 }
 
-#About > div.row > div.bg-circle {
-    position: absolute;
-    top: 0;
-    z-index: -1;
+html > body > div#About > div.row > div.bg-circle {
+    position: absolute !important;
+    top: 0 !important;
+    z-index: -1 !important;
     overflow: hidden !important;
-    width: 60vmax;
-    height: 60vmax;
-    border-radius: 50%;
-    filter: blur(25vmax) brightness(120%);
+    width: 60vmax !important;
+    height: 60vmax !important;
+    border-radius: 50% !important;
+    filter: blur(25vmax) brightness(120%) !important;
 }
 
-#About > div.row:nth-of-type(3) > div.bg-circle {
-    background-color: #ff5ca8;
+html > body > div#About > div.row:nth-of-type(3) > div.bg-circle {
+    background-color: #ff5ca8 !important;
 }
 
-#About > div.row:nth-of-type(4) > div.bg-circle {
-    background-color: #73ff49;
+html > body > div#About > div.row:nth-of-type(4) > div.bg-circle {
+    background-color: #73ff49 !important;
 }
 
-#About > div.row:nth-of-type(5) > div.bg-circle {
-    background-color: #D8D8D8;
+html > body > div#About > div.row:nth-of-type(5) > div.bg-circle {
+    background-color: #D8D8D8 !important;
 }
 
-#About > div.row:nth-of-type(6) > div.bg-circle {
-    background-color: #406cff;
+html > body > div#About > div.row:nth-of-type(6) > div.bg-circle {
+    background-color: #406cff !important;
 }
 
-#About > div.row:nth-of-type(7) > div.bg-circle {
-    background-color: #93d6d8;
+html > body > div#About > div.row:nth-of-type(7) > div.bg-circle {
+    background-color: #93d6d8 !important;
 }
 
 .camera-colors {
