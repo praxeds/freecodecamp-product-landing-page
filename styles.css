@@ -137,9 +137,6 @@ table {
 
 /*!Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300;400;500&display=swap');
-@import url('assets/Fonts/Roboto/Roboto-Regular.ttf');
-@import url('assets/Fonts/Roboto/Roboto-Light.ttf');
-@import url('assets/Fonts/Fredoka_One/FredokaOne-Regular.ttf');
 
 /*!Variables*/
 :root {
@@ -184,7 +181,7 @@ nav>span,
 h1,
 h3,
 h4 {
-    font-family: 'Fredoka One', sans-serif;
+    font-family: 'Fredoka One', cursive, sans-serif;
 }
 
 h3,
