@@ -2,322 +2,237 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="assets/img_01.png">
-  <title>Fujifilm | Instax Mini 9</title>
-
-
-  <!--!Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Basic&family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:wght@800&family=Poppins:wght@500;600&family=Raleway:wght@500&display=swap"
-    rel="stylesheet">
-
-  <!--!Bootstrap / Font Awesome / Styles-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-  <script src="https://kit.fontawesome.com/ee8be3442f.js" crossorigin="anonymous"></script>
-  <link href="styles.css" rel="stylesheet">
-  <link href="media-queries.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/img_01.png">
+    <title>Fujifilm | Instax Mini 9</title>
+    <link href="styles.css" rel="stylesheet">
+    <!--!Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/ee8be3442f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <span><a href="#">Fujifilm</a></span>
+            <ul>
+                <a href="#About">
+                    <li>About</li>
+                </a>
+                <a href="#Features">
+                    <li>Features</li>
+                </a>
+                <a href="#Pricing">
+                    <li>Pricing</li>
+                </a>
+            </ul>
+        </nav>
 
-  <header id="header">
-    <nav class="navbar fixed-top navbar-expand-lg" id="nav-bar" style="background-color: white;">
-    <div class="container-fluid">
-      <a class="navbar-brand main-font ps-2" href="#">Fujifilm</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title main-font" id="offcanvasNavbarLabel">Fujifilm</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-2">
-            <li class="nav-item secondary-font">
-              <a class="nav-link" aria-current="page" href="#About">About</a>
-            </li>
-            <li class="nav-item secondary-font">
-              <a class="nav-link" href="#Features">Features</a>
-            </li>
-            <li class="nav-item secondary-font">
-              <a class="nav-link" href="#Pricing">Pricing</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    </nav>
-
-    <div id="header-img" loading="lazy" class="img-fluid header"></div>
-    <div class="subtext">
-    <h2 class="header-title">Your life on <span class="rainbow-text">film</span> .</h2>
-    <p>Cute, colorful and compact, the <span class="highlight">INSTAX Mini 9</span> is just bursting with cool photo
-      features, and will always be by your side.</p>
-    </div>
-  </header>
-  
-  <div class="container panel absolute" id="About">  
-    <div class="row">
-      <div class="col">
-        <h4 class="p-4 left">About</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <h5 class="left ms-3">5 colors</h5>
-      </div>
-    </div>
-    <div class="row">
-      <div class="bg-circle"></div>
-      <div class="col-12 col-md-6">
-        <div class="camera-colors" style="background-image:url(assets/img_01.png);"></div>
-        <h6 class="center mt-2">Flamingo Pink</h6>
-        <div class="circle"></div>
-      </div>
-    </div>
-    <div class="row ">
-      <div class="bg-circle"></div>
-      <div class="col-12 col-md-6"></div>
-      <div class="col-12 col-md-6">
-        <div class="camera-colors" style="background-image:url(assets/img_02.png);"></div>
-        <h6 class="center mt-2">Lime Green</h6>
-      </div>
-    </div>
-    <div class="row">
-      <div class="bg-circle"></div>
-      <div class="col-12 col-md-6">
-        <div class="camera-colors" style="background-image:url(assets/img_03.png);"></div>
-        <h6 class="center mt-2">Smoky White</h6>
-      </div>
-    </div>
-    <div class="row">
-      <div class="bg-circle"></div>
-      <div class="col-12 col-md-6"></div>
-      <div class="col-12 col-md-6">
-        <div class="camera-colors" style="background-image:url(assets/img_04.png);"></div>
-        <h6 class="center mt-2">Cobalt Blue</h6>
-      </div>
-    </div>
-    <div class="row">
-      <div class="bg-circle"></div>
-      <div class="col-12 col-md-6">
-        <div class="camera-colors" style="background-image:url(assets/img_05.png);"></div>
-        <h6 class="center mt-2">Ice Blue</h6>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 mt-4 embed-responsive embed-responsive-16by9">
-        <iframe id="video" src="https://www.youtube.com/embed/GeJEd5DzC7s?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
+        <section>
+            <h1>Your life on&nbsp;<span>film</span>.</h1>
+            <h2>
+                Cute, colorful and compact, the <span>INSTAX Mini 9</span> is just bursting with cool photo features,
+                and
+                will always be by your side.
+            </h2>
+        </section>
+    </header>
 
 
-  <div class="container panel mt-3" id="Features">
-    <div class="row">
-      <div class="col">
-        <h4 class="p-4 left">Features</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-12 features">
-        <h5>High-Key Mode</h5>
-        <p><i class="fa-solid fa-lightbulb"></i></p>
-        <p>Setting the brightness adjustment dial to the high-key mode mark allows you to take pictures with a softer
-          impression.</p>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12 features">
-        <h5>Selfie Mirror</h5>
-        <p><i class="fa-solid fa-image-portrait"></i></p>
-        <p>You can check your framing with the mirror next to the lens.</p>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12 features">
-        <h5>Close-Up Lens Attachment</h5>
-        <p><i class="fa-solid fa-camera"></i></p>
-        <p>Close-up shooting up to 35 cm away is possible.</p>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12 features">
-        <h5>Brightness Adjustment Dial</h5>
-        <p><i class="fa-solid fa-sun"></i></p>
-        <p>INSTAX Mini 9 automatically determines the best brightness for taking a picture.</p>
-      </div>
-    </div>
-    <div class="row mt-5">
-      <hr>
-    </div>
-  </div>
+    <section id="About">
+        <h3>About</h3>
 
-  <div class="container panel mt-3 pb-5" id="Pricing">
-    <div class="row">
-      <div class="col">
-        <h4 class="p-4 left">Pricing</h4>
-      </div>
-    </div>
-    <div class="row gx-4 gy-4">
-      <div class="col-md-4 col-sm-12">
-        <div class="rainbow p-3">
-          <h5>Standard Packaging</h5>
-          <ul>
-            <li>(1) Fujifilm Instax Mini 9</li>
-            <li>(1) Instax carrying case</li>
-            <li class="text-decoration-line-through">(1) Instax photo holder clip stand (holds 8 instax mini photos)</li>
-            <li class="text-decoration-line-through">(1) Instax Mini Instant Film Twin Pack (White)</li>
-            <li class="text-decoration-line-through">(1) Instax Mini Macaron Film</li>
-          </ul>
-          <button class="pt-1 pb-1 ps-4 pe-4 pink one">Shop Now</button>
+        <h4>5 colors</h4>
+
+        <div>
+            <img width="40%" height="40%" src="assets/img_01.png">
+            <h5>Flamingo Pink</h5>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="rainbow p-3">
-          <h5>Gift Bundle Set</h5>
-          <ul>
-            <li>(1) Fujifilm Instax Mini 9</li>
-            <li>(1) Instax carrying case</li>
-            <li>(1) Instax photo holder clip stand (holds 8 instax mini photos)</li>
-            <li>(2) Instax Mini Instant Film Twin Pack (White)</li>
-            <li class="text-decoration-line-through">(1) Instax Mini Macaron Film</li>
-          </ul>
-          <button class="pt-1 pb-1 ps-4 pe-4 blue two">Shop Now</button>
+
+        <div>
+            <img width="40%" height="40%" src="assets/img_02.png">
+            <h5>Lime Green</h5>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="rainbow p-3">
-          <h5>Deluxe Bundle Set</h5>
-          <ul>
-            <li>(1) Fujifilm Instax Mini 9</li>
-            <li>(1) Instax carrying case</li>
-            <li>(1) Instax photo holder clip stand (holds 8 instax mini photos)</li>
-            <li>(3) Instax Mini Instant Film Twin Pack (White)</li>
-            <li>(3) Instax Mini Macaron Film</li>
-          </ul>
-          <button class="pt-1 pb-1 ps-4 pe-4 green three">Shop Now</button>
+
+        <div>
+            <img width="40%" height="40%" src="assets/img_03.png">
+            <h5>Smoky White</h5>
         </div>
-      </div>
-    </div>
-  </div>
+
+        <div>
+            <img width="40%" height="40%" src="assets/img_04.png">
+            <h5>Cobalt Blue</h5>
+        </div>
+
+        <div>
+            <img width="40%" height="40%" src="assets/img_05.png">
+            <h5>Ice Blue</h5>
+        </div>
+
+        <div>
+            <iframe src="https://www.youtube.com/embed/GeJEd5DzC7s" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
 
 
-  <div class="container-fluid mt-3" id="Instagram">
-    <div class="row">
-      <div class="col-4 col-md-3 p-0 instagram">
-        <div class="overlay one">
-          <div class="text">
-            <i class="fa-brands fa-instagram"></i>
-          </div>
+    <section id="Features">
+        <h3>Features</h3>
+
+        <div>
+            <div>
+                <h4>High-Key Mode</h4>
+                <span><i class="fa-solid fa-lightbulb"></i></span>
+                <p>Setting the brightness adjustment dial to the high-key mode mark allows you to take pictures with a
+                    softer impression.</p>
+            </div>
+
+            <div>
+                <h4>Selfie Mirror</h4>
+                <span><i class="fa-solid fa-image-portrait"></i></span>
+                <p>You can check your framing with the mirror next to the lens.</p>
+            </div>
+
+            <div>
+                <h4>Close-Up Lens Attachment</h4>
+                <span><i class="fa-solid fa-camera"></i></span>
+                <p>Close-up shooting up to 35 cm away is possible.</p>
+            </div>
+
+            <div>
+                <h4>Brightness Adjustment Dial</h4>
+                <span><i class="fa-solid fa-sun"></i></span>
+                <p>INSTAX Mini 9 automatically determines the best brightness for taking a picture.</p>
+            </div>
         </div>
-        <img loading="lazy" class="img-fluid" src="assets/pexels-diana-titenko-3271958.jpg">
-      </div>
-      <div class="col-4 col-md-3 p-0 instagram">
-        <div class="overlay two">
-          <div class="text">
-            <i class="fa-brands fa-instagram"></i>
-          </div>
-        </div>
-        <img loading="lazy" class="img-fluid" src="assets/pexels-niles-gibbs-10001826.jpg">
-      </div>
-      <div class="col-4 col-md-3 p-0 instagram">
-        <div class="overlay three">
-          <div class="text">
-            <i class="fa-brands fa-instagram"></i>
-          </div>
-        </div>
-        <img loading="lazy" class="img-fluid" src="assets/pexels-niles-gibbs-10001828.jpg">
-      </div>
-      <div class="col-12 order-first col-md-3 order-md-last p-0 instagram">
-        <div class="overlay four">
-          <div class="text">
-            <i class="fa-brands fa-instagram"></i>
-          </div>
-        </div>
-        <img loading="lazy" class="img-fluid" src="assets/pexels-abdiel-rosario-6421292.jpg">
-      </div>
-    </div>
-  </div>
+    </section>
 
 
-  <footer>
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 footer-about wow fadeInUp">
-            <h3>Fujifilm</h3>
+    <section id="Pricing">
+        <h3>Pricing</h3>
+
+        <div>
+            <div>
+                <h4>Standard Packaging</h4>
+                <ul>
+                    <li>(1) Fujifilm Instax Mini 9</li>
+                    <li>(1) Instax carrying case</li>
+                    <li class="crossed-out">(1) Instax photo holder clip stand (holds 8 instax mini photos)</li>
+                    <li class="crossed-out">(0) Instax Mini Instant Film Twin Pack (White)</li>
+                    <li class="crossed-out">(0) Instax Mini Macaron Film</li>
+                </ul>
+                <button class="pt-1 pb-1 ps-4 pe-4 pink one">Shop Now</button>
+            </div>
+
+            <div>
+                <h4>Gift Bundle Set</h4>
+                <ul>
+                    <li>(1) Fujifilm Instax Mini 9</li>
+                    <li>(1) Instax carrying case</li>
+                    <li>(1) Instax photo holder clip stand (holds 8 instax mini photos)</li>
+                    <li>(2) Instax Mini Instant Film Twin Pack (White)</li>
+                    <li class="crossed-out">(0) Instax Mini Macaron Film</li>
+                </ul>
+                <button class="pt-1 pb-1 ps-4 pe-4 pink one">Shop Now</button>
+            </div>
+
+            <div>
+                <h4>Deluxe Bundle Set</h4>
+                <ul>
+                    <li>(1) Fujifilm Instax Mini 9</li>
+                    <li>(1) Instax carrying case</li>
+                    <li>(1) Instax photo holder clip stand (holds 8 instax mini photos)</li>
+                    <li>(3) Instax Mini Instant Film Twin Pack (White)</li>
+                    <li>(3) Instax Mini Macaron Film</li>
+                </ul>
+                <button class="pt-1 pb-1 ps-4 pe-4 pink one">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div class="overlay two">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <img width="100%" height="100%" alt="Fujifilm instagram account"
+                src="assets/pexels-abdiel-rosario-6421292.jpg">
+        </div>
+
+        <div>
+            <div class="overlay two">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <img width="100%" height="100%" alt="Fujifilm instagram account"
+                src="assets/pexels-diana-titenko-3271958.jpg">
+        </div>
+
+        <div>
+            <div class="overlay two">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <img width="100%" height="100%" alt="Fujifilm instagram account"
+                src="assets/pexels-niles-gibbs-10001826.jpg">
+        </div>
+
+        <div>
+            <div class="overlay two">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <img width="100%" height="100%" alt="Fujifilm instagram account"
+                src="assets/pexels-niles-gibbs-10001828.jpg">
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h4>Fujifilm</h4>
             <p>
-              We create innovative products and deliver effective solutions in a wide variety of fields to serve
-              society, contribute to the quality of life, and enhance environmental sustainability.
+                We create innovative products and deliver effective solutions in a wide variety of fields to serve
+                society, contribute to the quality of life, and enhance environmental sustainability.
             </p>
             <p>&copy; Fujifilm Inc. 2022</p>
-          </div>
+        </div>
 
-          <div class="col-md-4 offset-md-1 footer-links">
-            <div class="row">
-              <div class="col">
-                <h3>Links</h3>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 d-none d-md-block">
+        <div>
+            <h5>Links</h5>
+            <div>
                 <p><a href="#">Home</a></p>
                 <p><a href="#About">About</a></p>
                 <p><a href="#Features">Features</a></p>
                 <p><a href="#Pricing">Pricing</a></p>
-              </div>
-              <div class="col-md-6">
+            </div>
+
+            <div>
                 <p><a href="#">Privacy Policy</a></p>
                 <p><a href="#">Refund Policy </a></p>
                 <p><a href="#">Delivery & Returns</a></p>
                 <p><a href="#">Terms of Service</a></p>
-              </div>
             </div>
-          </div>
-
-          <div class="col-md-4 footer-contact">
-            <h3 class="highlight" id="email-title">Sign up for free shipping on your first order.</h3>
-            <form autocomplete="off">
-              <div class="email-div">
-                <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="EMAIL">
-                <button><i class="fa-solid fa-arrow-right-long"></i></button>
-              </div>
-            </form>
-          </div>
 
         </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col footer-social">
+
+        <div>
+            <h5>Sign up for free shipping on your first order.</h5>
+            <form autocomplete="off">
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="EMAIL">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </form>
+        </div>
+
+        <div>
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-google-plus-g"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-pinterest"></i></a>
-          </div>
         </div>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--!Scripts-->
-  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-    crossorigin="anonymous"></script>
-
+    </footer>
 </body>
 
 </html>
