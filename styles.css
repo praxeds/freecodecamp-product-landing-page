@@ -136,10 +136,10 @@ table {
 }
 
 /*!Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300;400;500&display=swap');
 @import url('assets/Fonts/Roboto/Roboto-Regular.ttf');
 @import url('assets/Fonts/Roboto/Roboto-Light.ttf');
 @import url('assets/Fonts/Fredoka_One/FredokaOne-Regular.ttf');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300;400;500&display=swap');
 
 /*!Variables*/
 :root {
@@ -291,6 +291,7 @@ header>section>h1>span {
 /*!About Section*/
 body>section:nth-of-type(1) {
     background: var(--gray-100);
+    padding-bottom: 2rem;
 }
 
 body>section:nth-of-type(1)>h4 {
